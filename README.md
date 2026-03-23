@@ -97,8 +97,8 @@ How many trips have trip_distance > 5?
         trip_distance > 5
     ;
 
-<b> Part 2: PyFlink (Questions 4-6) </b
->
+<b> Part 2: PyFlink (Questions 4-6) </b>
+
 For the PyFlink questions, you'll adapt the workshop code to work with the green taxi data. The key differences from the workshop:
 
 - Topic name: green-trips (instead of rides)
@@ -189,4 +189,4 @@ Which hour had the highest total tip amount?
     LIMIT 10
     ;
 
-[Query_result6](pictures/answer6.png)
+[Query_result6](/pictures/answer6.png)
