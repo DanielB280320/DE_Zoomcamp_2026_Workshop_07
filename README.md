@@ -31,6 +31,7 @@ If you previously ran the workshop and have old containers/volumes, do a clean s
 Note: the container names (like workshop-redpanda-1) assume the directory is called workshop. If you renamed it, adjust accordingly.
 
 <b> Question 1. Redpanda version </b>
+
 Run rpk version inside the Redpanda container:
 
     sudo docker exec -it de-zoomcamp-hw7-redpanda-1 rpk version
@@ -121,6 +122,7 @@ Important notes for the Flink jobs:
 - If you sent data to the topic multiple times, delete and recreate the topic to avoid duplicates: docker exec -it workshop-redpanda-1 rpk topic delete green-trips
 
 <b> Question 4. Tumbling window - pickup location </b>
+
 Create a Flink job that reads from green-trips and uses a 5-minute tumbling window to count trips per PULocationID.
 
 Write the results to a PostgreSQL table with columns: window_start, PULocationID, num_trips.
