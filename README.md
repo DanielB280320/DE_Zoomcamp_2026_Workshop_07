@@ -189,4 +189,4 @@ Which hour had the highest total tip amount?
     LIMIT 10
     ;
 
-[Query_result6](/pictures/answer6.png)
+![Query_result6](/pictures/answer6.png)
